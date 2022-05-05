@@ -3,17 +3,21 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 8080",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "antd": "^4.19.1",
+    "@vue/composition-api": "^1.6.0",
+    "antd": "^4.20.2",
     "axios": "^0.26.1",
+    "leggo": "^0.1.29",
+    "lodash": "^4.17.21",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.182",
     "@types/react": "^17.0.33",
     "@types/react-dom": "^17.0.10",
     "@vitejs/plugin-react": "^1.0.7",
